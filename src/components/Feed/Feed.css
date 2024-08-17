@@ -1,0 +1,125 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+
+/* Card styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 10px;
+}
+
+.card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin: 6px 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 0 10px 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .feed {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-column-gap: 12px;
+        grid-row-gap: 24px;
+    }
+
+    .card h2 {
+        font-size: 15px;
+    }
+
+    .card h3 {
+        font-size: 13px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+    .feed {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-column-gap: 10px;
+        grid-row-gap: 20px;
+    }
+
+    .card h2 {
+        font-size: 14px;
+    }
+
+    .card h3 {
+        font-size: 12px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feed {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-column-gap: 8px;
+        grid-row-gap: 18px;
+    }
+
+    .card h2 {
+        font-size: 13px;
+    }
+
+    .card h3 {
+        font-size: 11px;
+    }
+
+    .card p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 576px) {
+    .feed {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 16px;
+    }
+
+    .card h2 {
+        font-size: 12px;
+    }
+
+    .card h3 {
+        font-size: 10px;
+    }
+
+    .card p {
+        font-size: 10px;
+    }
+}

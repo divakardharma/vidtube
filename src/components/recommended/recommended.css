@@ -1,0 +1,87 @@
+.recommended {
+    flex-basis: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.side-video-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.side-video-list img {
+    width: 120px; /* Adjust width as needed */
+    height: 90px; /* Adjust height as needed */
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.vid-info {
+    flex: 1;
+}
+
+.vid-info h4 {
+    font-size: 1rem; /* Adjust font size for better readability */
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.vid-info p {
+    font-size: 0.9rem; /* Adjust font size for better readability */
+    color: #666; /* Slightly lighter color for text */
+}
+
+@media (max-width: 768px) {
+    .recommended {
+        flex-basis: 100%;
+        padding: 5px;
+    }
+
+    .side-video-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .side-video-list img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 5px;
+    }
+
+    .vid-info {
+        width: 100%;
+    }
+
+    .vid-info h4 {
+        font-size: 0.9rem; /* Smaller font size for smaller screens */
+    }
+
+    .vid-info p {
+        font-size: 0.8rem; /* Smaller font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .recommended {
+        padding: 2px;
+    }
+
+    .side-video-list {
+        margin-bottom: 10px;
+    }
+
+    .side-video-list img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 5px;
+    }
+
+    .vid-info h4 {
+        font-size: 0.8rem; /* Further reduce font size for very small screens */
+    }
+
+    .vid-info p {
+        font-size: 0.7rem; /* Further reduce font size for very small screens */
+    }
+}

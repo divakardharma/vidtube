@@ -1,0 +1,178 @@
+.play-video {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .play-video video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .play-video h3 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  
+  .play-video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #5a5a5a;
+  }
+  
+  .play-video-info .icons {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+  }
+  
+  .play-video-info span {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .publisher {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .publisher div {
+    flex: 1;
+    line-height: 18px;
+  }
+  
+  .publisher .icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+  }
+  
+  .publisher div p {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  .publisher div span {
+    font-size: 0.8rem;
+    color: #5a5a5a;
+  }
+  
+  .publisher button {
+    background: red;
+    color: #fff;
+    padding: 8px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .vid-description {
+    padding-left: 0;
+    margin: 15px 0;
+  }
+  
+  .vid-description p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+  }
+  
+  .vid-description h4 {
+    font-size: 1rem;
+    color: #5a5a5a;
+    margin-top: 15px;
+  }
+  
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .comment .user {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  
+  .comment h3 {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+  }
+  
+  .comment h3 span {
+    font-size: 0.8rem;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+  }
+  
+  .comment-action {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 0.9rem;
+  }
+  
+  .comment-action .icons {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+  
+  .comment-action span {
+    margin-right: 20px;
+    color: #5a5a5a;
+  }
+  
+  @media (max-width: 768px) {
+    .play-video h3 {
+      font-size: 1.2rem;
+    }
+  
+    .publisher div p {
+      font-size: 1rem;
+    }
+  
+    .publisher button {
+      padding: 6px 15px;
+    }
+  
+    .vid-description {
+      padding-left: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .play-video-info {
+      font-size: 0.8rem;
+    }
+  
+    .publisher {
+      margin: 15px 0;
+    }
+  
+    .vid-description {
+      padding-left: 0;
+    }
+  
+    .comment h3 {
+      font-size: 0.8rem;
+    }
+  
+    .comment h3 span {
+      font-size: 0.7rem;
+    }
+  }
+  
