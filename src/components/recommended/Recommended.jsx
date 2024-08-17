@@ -1,5 +1,5 @@
 import React from 'react'
-import './Recommended.css'
+import './recommended.css'
 import Thumbnail1 from '../../assets/car.jpg'
 const Recommended = () => {
   return (
