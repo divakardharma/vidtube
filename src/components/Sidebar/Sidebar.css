@@ -1,3 +1,4 @@
+
 .sidebar {
     background: #fff;
     width: 15%;
@@ -64,63 +65,9 @@
     border-bottom: 3px solid red;
 }
 
-/* Media Queries for responsiveness */
-@media (max-width: 1200px) {
-    .sidebar {
-        width: 12%;
-    }
-}
-
-@media (max-width: 992px) {
-    .sidebar {
-        width: 10%;
-    }
-}
 
 @media (max-width: 768px) {
     .sidebar {
-        width: 7%;
-    }
-
-    .small-sidebar {
-        width: 7%;
-        display: none;
-    }
-    .sidebar hr{
-        display: none;
-    }
-
-    .sidebar .side-link {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .sidebar .side-link .sideicons {
-        display: none;
-        margin-bottom: 5px;
-    }
-}
-
-@media (max-width: 576px) {
-    .sidebar {
-        width: 5%;
-    }
-
-    .small-sidebar {
-        width: 5%;
-    }
-
-    .sidebar .side-link {
-        display: none;
-    }
-
-    .sidebar .subscribed-list {
-        display: none;
-    }
-
-    .sidebar hr {
-        width: 70%;
+        display: none; 
     }
 }
